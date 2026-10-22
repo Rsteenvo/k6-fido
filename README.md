@@ -4,8 +4,8 @@ A bunch of random functions for k6 performance testing that I found missing, but
 
 # Compile for development
 ```sh
-xk6 build v0.54.0 \
-  --with github.com/b4dc0d3rs/k6-fido=.
+xk6 build v2.3.0 \
+  --with github.com/rsteenvo/k6-fido=.
 
 ./k6 run k6fido.js
 ```
